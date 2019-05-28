@@ -10,6 +10,6 @@ def second_challenge
   shopping_list = groceries.values
   shopping_list.flatten
   return shopping_list
-  
+
 
 end
