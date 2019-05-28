@@ -15,10 +15,8 @@ def first_challenge
 
   #your code here
   contacts.each do |name, details|
-    if name == "Jon Snow"
       details.each do |attribute, icecream|
         if attribute == :favorite_icecream_flavors
-          icecream = :favorite_icecream_flavors
           icecream.shift
         end
       end
