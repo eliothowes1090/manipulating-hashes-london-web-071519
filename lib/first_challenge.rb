@@ -19,9 +19,6 @@ def first_challenge
       details.each do |attribute, icecream|
         if attribute == :favorite_icecream_flavors
           favorite_icecream_flavors.shift
-            if flavor == strawberry
-              favorite_icecream_flavors.shift
-            end
           end
         end
       end
