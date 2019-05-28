@@ -18,7 +18,8 @@ def first_challenge
     if name == "Jon Snow"
       details.each do |attribute, icecream|
         if attribute == :favorite_icecream_flavors
-          :favorite_icecream_flavors[].shift
+          icecream = :favorite_icecream_flavors
+          icecream.shift
         end
       end
     end
