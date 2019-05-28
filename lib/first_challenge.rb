@@ -21,6 +21,7 @@ def first_challenge
           :favorite_icecream_flavors.each do |flavor|
             if flavor == strawberry
               :favorite_icecream_flavors[].shift
+            end
         end
       end
     end
