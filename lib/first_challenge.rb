@@ -18,7 +18,7 @@ def first_challenge
     if name == "Jon Snow"
       details.each do |icecream|
         if icecream == :favorite_icecream_flavors
-          :favorite_icecream_flavors[0].unshift
+          :favorite_icecream_flavors.unshift
         end
       end
     end
