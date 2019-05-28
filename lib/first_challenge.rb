@@ -22,6 +22,7 @@ def first_challenge
             if flavor == strawberry
               :favorite_icecream_flavors[].shift
             end
+          end
         end
       end
     end
