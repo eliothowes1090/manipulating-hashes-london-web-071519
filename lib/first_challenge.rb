@@ -16,9 +16,9 @@ def first_challenge
   #your code here
   contacts.each do |name, details|
     if name == "Jon Snow"
-      details.each do |icecream|
-        if icecream == :favorite_icecream_flavors
-          :favorite_icecream_flavors.shift
+      details.each do |attribute, icecream|
+        if attribute == :favorite_icecream_flavors
+          attribute.shift
         end
       end
     end
