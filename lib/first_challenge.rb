@@ -20,7 +20,6 @@ def first_challenge
           icecream.shift
         end
       end
-    end
   end
 
   # contacts.delete_if {|key, value| value == "strawberry"}
