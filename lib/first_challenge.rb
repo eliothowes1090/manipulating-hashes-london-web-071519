@@ -17,7 +17,7 @@ def first_challenge
   contacts.each do |name, details|
     if name == "Jon Snow"
       details.each do |icecream|
-        if icecream == favorite_icecream_flavors:
+        if icecream == :favorite_icecream_flavors
           :favorite_icecream_flavors.first.delete
         end
       end
