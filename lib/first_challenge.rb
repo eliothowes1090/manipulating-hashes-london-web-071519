@@ -19,6 +19,10 @@ def first_challenge
       details.each do |icecream|
         if icecream == favorite_icecream_flavors:
           favorite_icecream_flavors:.first.delete
+        end
+      end
+    end
+  end
 
   #remember to return your newly altered contacts hash!
   contacts
